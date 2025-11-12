@@ -1,8 +1,8 @@
 # 🧠 smart-switch
 
-**Un alias de Git para cambiar de rama sin perder cambios.**
+**Alias de Git para cambiar de rama sin perder cambios.**
 
-Guarda automáticamente tus modificaciones antes de cambiar y las restaura al volver.
+Guarda automáticamente los cambios antes de cambiar de rama y los restaura al volver.
 
 ---
 

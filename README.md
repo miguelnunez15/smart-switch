@@ -11,7 +11,7 @@ Guarda automáticamente los cambios antes de cambiar de rama y los restaura al v
 Ejecuta este comando en tu terminal para añadir el alias **globalmente**:
 
 ```bash
-git config --global alias.sw '!f() {
+git config --global alias.smart-switch '!f() {
   current=$(git branch --show-current)
 
   if ! git diff --quiet || [ -n \"$(git ls-files --others --exclude-standard)\" ]; then
@@ -27,3 +27,9 @@ git config --global alias.sw '!f() {
     git stash pop \"$stash_id\"
   fi
 }; f'
+```
+
+---
+## 🚀 Uso
+```bash
+git smart-switch branch-name

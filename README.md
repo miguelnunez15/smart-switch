@@ -30,6 +30,8 @@ git config --global alias.smart-switch '!f() {
 ```
 
 ---
-## 🚀 Uso
+## ⚙️ Uso
+
+
 ```bash
 git smart-switch branch-name
